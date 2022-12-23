@@ -1,0 +1,35 @@
+.featured-container {
+  background-color: #fff;
+  width: 395px;
+  height: 93px;
+  display: flex;
+}
+.feature-label {
+  font-family: "Open Sans", sans-serif;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 19px;
+  line-height: 100%;
+  color: #1a1a1a;
+  font-weight: bold;
+  margin-right: 6px;
+}
+.feature-sub-label {
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 14px;
+  line-height: 19px;
+  line-height: 100%;
+  color: #828282;
+}
+
+.feature-label-sublabel {
+  margin: 25px 22px 24px 22px;
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 317px) {
+  .featured-container {
+    width: 300px;
+    height: 93px;
+  }
+}

@@ -1,0 +1,16 @@
+.verified-img {
+  margin-left: 92px;
+}
+.page-reviewed {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #1a1a1a;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .main-wrapper {
+    background: none;
+  }
+}

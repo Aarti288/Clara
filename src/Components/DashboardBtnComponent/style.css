@@ -1,0 +1,16 @@
+.dashboard-button {
+  background-color: #4211cf;
+  border: none;
+  color: #fff;
+  border-radius: 100px;
+  padding: 5px 16px 4px 16px;
+}
+.button-component {
+  margin-right: 8px;
+}
+.edit-button {
+  background-color: #fff;
+  color: #4211cf;
+  border-radius: 100px;
+  border: 1px solid #4211cf;
+}

@@ -1,0 +1,23 @@
+.logout-component {
+  background-color: #fff;
+  width: 162px;
+  height: 52px;
+  position: absolute;
+  top: 11%;
+  right: 2%;
+  z-index: 1;
+}
+.logout-img {
+  width: 18px;
+  height: 18px;
+  margin-right: 14px;
+
+  margin-top: 2px;
+}
+.logoutbtn-img {
+  display: flex;
+  margin: 18px 18px 18px 18px;
+}
+.link {
+  cursor: pointer;
+}

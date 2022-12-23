@@ -1,0 +1,139 @@
+.main-wrapper {
+  background: url("../../Components/Image/page-img.png") no-repeat center center;
+  height: 120vh;
+  background-size: cover;
+  position: relative;
+}
+.forgot-password {
+  color: #4211cf;
+  font-family: "Open Sans", sans-serif;
+  font-style: "regular";
+  font-size: 14px;
+  line-height: 19px;
+  line-height: 100%;
+  margin-top: 15px;
+  float: right;
+}
+
+.inner-card {
+  margin: 70px 95px;
+  position: relative;
+}
+.sub-main-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 69px;
+  padding-top: 70px;
+}
+.clara-main-heading {
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 64px;
+  line-height: 87px;
+  line-height: 100%;
+  font-weight: bold;
+
+  color: #ffffff;
+  position: absolute;
+  top: 68%;
+  left: 22%;
+}
+.clara-sub-main-heading {
+  font-family: "Open Sans", sans-serif;
+
+  font-style: "regular";
+  font-size: 24px;
+  line-height: 33px;
+  line-height: 100%;
+
+  color: rgba(255, 255, 255, 0.7);
+  width: 400px;
+  position: absolute;
+  top: 77%;
+  left: 12%;
+}
+.clara-sun-main-heading2 {
+  font-family: "Open Sans", sans-serif;
+
+  font-style: "regular";
+  font-size: 24px;
+  line-height: 33px;
+  line-height: 100%;
+
+  color: rgba(255, 255, 255, 0.7);
+  width: 400px;
+  position: absolute;
+  top: 81%;
+  left: 17%;
+}
+@media screen and (min-device-width: 120px) and (max-device-width: 768px) {
+  .main-wrapper {
+    background: none;
+  }
+  .card-component {
+    width: max-content;
+    width: 400px;
+
+    margin-top: 57px;
+    margin-right: -312px;
+  }
+  .clara-main-heading {
+    display: none;
+  }
+}
+.password-icon {
+  position: absolute;
+  bottom: 118px;
+  left: 295px;
+  cursor: pointer;
+  width: 25px;
+}
+@media screen and(min-width:320px) and(max-width:705px) {
+  .clara-main-heading {
+    display: none;
+  }
+}
+/* @media screen and (min-device-width: 394px) and (max-device-width: 768px) {
+  .main-wrapper {
+    background: none;
+  }
+  .sub-main-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+} */
+/* @media screeen and(max-device-width:319px) {
+  .main-wrapper {
+    background: none;
+  }
+} */
+/* @media screen and (max-device-width: 1647px) {
+  .clara-sub-main-heading {
+    position: absolute;
+    top: 77%;
+    left: 14%;
+  }
+}
+@media screen and (min-device-width: 981px) and (max-device-width: 1107px) {
+  .clara-sun-main-heading2 {
+    position: absolute;
+    top: 84%;
+    left: 15%;
+  }
+
+  .clara-sub-main-heading {
+    position: absolute;
+    top: 79%;
+    left: 12%;
+  }
+} */
+
+@media screen and (min-device-width: 785px) and (max-device-width: 1027px) {
+  .clara-sun-heading2 {
+    display: none;
+  }
+
+  .clara-sub-heading {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+.input-field {
+  color: grey;
+  border-bottom: 1 px solid #000000;
+
+  margin-top: 25px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  width: 320px;
+}
+.form-input-label {
+  font-family: "Open Sans", sans-serif;
+  font-style: "Regular";
+  font-size: 12px;
+  line-height: 19px;
+  line-height: 12px;
+  line-height: 73%;
+  color: grey;
+}
+.form-error {
+  position: absolute;
+  margin-top: 5px;
+  color: red;
+}

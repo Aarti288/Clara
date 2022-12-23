@@ -1,0 +1,17 @@
+.form-button {
+  width: 320px;
+  height: 50px;
+  background-color: #4211cf;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 19px;
+  line-height: 100%;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+.button-component {
+  margin-top: 16px;
+}

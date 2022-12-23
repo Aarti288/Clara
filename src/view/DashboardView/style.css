@@ -1,0 +1,159 @@
+body {
+  height: 100%;
+}
+.dashboard-view-wrappper {
+  background: #e5e5e5;
+  width: 100vw;
+  /* /* height: 1200px; */
+}
+.dashboard-bg-image {
+  background: url("../../Components/Image/dashboard-bg-image.png");
+  height: 314px;
+  padding-top: 96px;
+  position: relative;
+}
+.dashboard-profile-container {
+  margin: 0px 24px 0px 24px;
+  height: 500px;
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+}
+.featured-container {
+  display: flex;
+}
+
+.person-photo {
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.profile-person {
+  margin-left: 42px;
+  margin-top: -31px;
+}
+.profile-person-data {
+  margin: 48px;
+  height: 216px;
+}
+.aboutme-btn {
+  display: flex;
+  margin-bottom: 27px;
+}
+.person-bio {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 4px;
+  font-size: 14px;
+
+  color: #828282;
+}
+.aboutme-editprofile {
+  display: flex;
+}
+.about-me-data2 {
+  margin-bottom: 32px;
+}
+.gender-agegrp {
+  display: flex;
+}
+.gender-img {
+  margin-right: 14px;
+}
+.gender-type {
+  margin-right: 14px;
+  vertical-align: super;
+}
+.people-age-grp-img {
+  margin-left: 50px;
+  margin-right: 11px;
+}
+.people-age-grp-type {
+  vertical-align: super;
+}
+.location-name {
+  vertical-align: super;
+}
+.location-icon {
+  margin: 24px 14px 0px 0px;
+}
+.person-location {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #828282;
+}
+.about-me {
+  font-family: "Open Sans", sans-serif;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 18px;
+  line-height: 73%;
+  color: #1a1a1a;
+  font-weight: bold;
+  margin-right: 550px;
+}
+.about-me-data {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  color: #828282;
+  font-weight: normal;
+}
+.about-me-data1 {
+  padding-bottom: 14px;
+  padding-top: 13px;
+}
+.profile-person-fullname {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  line-height: 100%;
+  color: #4211cf;
+}
+.folllower-data {
+  background-color: #1a1a1a;
+}
+
+.followers {
+  display: flex;
+}
+.followers-container {
+  background-color: black;
+  color: #fff;
+
+  margin: 0px 24px 0px 24px;
+}
+
+@media screen and (min-device-width: 1100px) and (max-device-width: 1157px) {
+  .about-me {
+    font-size: 9px;
+    line-height: 14px;
+    line-height: 73%;
+  }
+  .about-me-data {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 10rem;
+    color: #828282;
+    font-weight: normal;
+  }
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 372px) {
+  .followers {
+    display: flex;
+  }
+}
+.react-multi-carousel-item {
+  flex: 1 1 auto;
+  position: relative;
+  width: 383px;
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 320px) {
+  .followers-container {
+    margin-left: -48px;
+  }
+  .react-multi-carousel-item {
+    flex: 1 1 auto;
+    position: relative;
+    width: 400px;
+  }
+}

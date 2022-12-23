@@ -1,0 +1,124 @@
+.navbar-container {
+  background-color: #fff;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+.claraimg {
+  background-color: #4211cf;
+  border-radius: 100%;
+  border: none;
+  padding-top: 4px;
+  margin: 18px 24px 18px 18px;
+}
+.C-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+  line-height: 100%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.clara-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  line-height: 33px;
+  line-height: 100%;
+  color: #4211cf;
+  margin: 22px 0px 17px 0px;
+}
+.home-nav {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  line-height: 100%;
+  color: #1a1a1a;
+  margin: 25px 38px 11px 29px;
+  cursor: pointer;
+}
+.brands-nav {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  line-height: 100%;
+  color: #1a1a1a;
+  margin: 27px 25px 28px 10px;
+  cursor: pointer;
+}
+
+.profile-nav {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  line-height: 100%;
+  color: #1a1a1a;
+  margin: 25px 0px 28px 0px;
+  cursor: pointer;
+}
+.home-brands-profile {
+  display: flex;
+}
+.navbar-left {
+  display: flex;
+}
+.profile-btn {
+  background-color: #4211cf;
+  border-radius: 100%;
+  border: none;
+  padding: 7px 9px 8px 9px;
+  margin: 25px 0px 25px 11px;
+}
+.profile-name {
+  font-family: "Open Sans", sans-serif;
+  font-style: "Regular";
+  font-size: 14px;
+  line-height: 19px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.arrow-icon {
+  margin: 0px 34px 0px 11px;
+  cursor: pointer;
+  position: relative;
+}
+
+.active {
+  border-bottom: 3px solid #4211cf;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.active-round-border {
+  border-top-left-radius: 12px;
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 1157px) {
+  .navbar-container {
+    width: 1605px;
+  }
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 372px) {
+  .navbar-container {
+    display: flex;
+  }
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 390px) {
+  .navbar-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 320px) {
+  .navbar-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -122px;
+  }
+}

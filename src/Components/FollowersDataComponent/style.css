@@ -1,0 +1,62 @@
+.social-btn {
+  background-color: aliceblue;
+  border-radius: 100%;
+}
+
+.followers-img {
+  display: flex;
+}
+.follower-details {
+  display: flex;
+}
+.followers-data {
+  display: flex;
+
+  margin: 31px 0px 23px 36px;
+}
+.follower-img {
+  display: flex;
+  width: 42.94px;
+  height: 39px;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+.follower-emailid {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.follower {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: (mixed);
+  line-height: 24px;
+  color: #ffffff;
+}
+.follower-name {
+  font-family: "Open Sans", sans-serif;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 372px) {
+  .follower-details {
+    position: relative;
+    left: 65px;
+  }
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 404px) {
+  .follower-details {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 369px) {
+  .follower-details {
+    display: flex;
+    justify-content: flex-start;
+  }
+}

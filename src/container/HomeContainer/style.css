@@ -1,0 +1,6 @@
+.home-wrapper {
+  background: url("../../Components/Image/Home-bg.png");
+  background-size: cover;
+
+  height: 743px;
+}

@@ -1,0 +1,119 @@
+.creator-btn {
+  background-color: #ffffff;
+  border: 1px solid #c9c9c9;
+  border-radius: 6px;
+  width: 64px;
+  height: 64px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+.createaccount-wrapper {
+  background-color: #4211cf;
+  background-size: cover;
+}
+.upper-img {
+  position: absolute;
+  top: 0%;
+}
+.below-img {
+  position: absolute;
+  top: 97%;
+  right: 0%;
+}
+.clara-heading {
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 64px;
+  line-height: 87px;
+  line-height: 100%;
+  font-weight: bold;
+
+  color: #ffffff;
+  position: absolute;
+  top: 83%;
+  left: 25%;
+}
+.clara-sub-heading {
+  font-family: "Open Sans", sans-serif;
+
+  font-style: "regular";
+  font-size: 24px;
+  line-height: 33px;
+  line-height: 100%;
+
+  color: rgba(255, 255, 255, 0.7);
+  width: 400px;
+  position: absolute;
+  top: 94%;
+  left: 15%;
+}
+.clara-sun-heading2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: "regular";
+  font-size: 24px;
+  line-height: 33px;
+  line-height: 100%;
+
+  color: rgba(255, 255, 255, 0.7);
+  width: 400px;
+  position: absolute;
+  top: 99%;
+  left: 19%;
+}
+
+.creator-heading {
+  font-family: "Open Sans", sans-serif;
+  font-style: "Regular";
+  font-size: 14px;
+  line-height: 19px;
+  line-height: 100%;
+
+  color: #828282;
+}
+.group-img {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+}
+.sub-main-wrapper {
+  padding-top: 70px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 69px;
+}
+.terms-use {
+  color: #4211cf;
+  font-family: "Open Sans", sans-serif;
+  font-style: "Regular";
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 94%;
+}
+.image-btn {
+  background-color: black;
+  border-radius: 100%;
+}
+
+.img-group-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-device-width: 120px) and (max-device-width: 768px) {
+  .createaccount-wrapper {
+    background-color: #fff;
+  }
+  .main-wrapper {
+    background: none;
+  }
+  .upper-img {
+    display: none;
+  }
+  .below-img {
+    display: none;
+  }
+  .group-img {
+    display: none;
+  }
+}

@@ -1,0 +1,169 @@
+.dashboard-wrappper {
+  background: #e5e5e5;
+  width: 100vw;
+  height: 320vh;
+}
+.dashboard-bg-image {
+  background: url("../../Components/Image/dashboard-bg-image.png");
+  height: 314px;
+  padding-top: 96px;
+  position: relative;
+}
+.dashboard-profile-container {
+  margin: 0px 24px 0px 24px;
+  height: 500px;
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+}
+.card-portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px;
+  margin-right: 43px;
+}
+.featured-container {
+  display: flex;
+}
+
+.person-photo {
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.profile-person {
+  margin-left: 42px;
+  margin-top: -31px;
+}
+.profile-person-data {
+  margin: 48px;
+  height: 216px;
+}
+.aboutme-btn {
+  display: flex;
+  margin-bottom: 27px;
+}
+.person-bio {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 4px;
+  font-size: 14px;
+
+  color: #828282;
+}
+.aboutme-editprofile {
+  display: flex;
+}
+.about-me-data2 {
+  margin-bottom: 0px;
+}
+.gender-agegrp {
+  display: flex;
+}
+.gender-img {
+  margin-right: 14px;
+}
+.gender-type {
+  margin-right: 14px;
+  vertical-align: super;
+}
+.people-age-grp-img {
+  margin-left: 50px;
+  margin-right: 11px;
+}
+.people-age-grp-type {
+  vertical-align: super;
+}
+.location-name {
+  vertical-align: super;
+}
+.location-icon {
+  margin: 24px 14px 0px 0px;
+}
+.person-location {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #828282;
+}
+.about-me {
+  font-family: "Open Sans", sans-serif;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 18px;
+  line-height: 73%;
+  color: #1a1a1a;
+  font-weight: bold;
+  margin-right: 550px;
+}
+.about-me-data {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  color: #828282;
+  font-weight: normal;
+}
+.about-me-data1 {
+  padding-bottom: 14px;
+  padding-top: 13px;
+}
+.profile-person-fullname {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  line-height: 100%;
+  color: #4211cf;
+}
+.folllower-data {
+  background-color: #1a1a1a;
+}
+
+.followers {
+  display: flex;
+}
+.followers-container {
+  background-color: black;
+  color: #fff;
+
+  margin: 0px 24px 0px 24px;
+}
+
+.articles-container {
+  background: #4211cf;
+
+  padding: -17px;
+  padding: 25px;
+  margin-top: 48px;
+}
+
+.articles-card-component {
+  width: 413px;
+  height: 93px;
+  background-color: #e5e5e5;
+}
+.add-portfolio {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+}
+.portfolio-heading {
+  margin-top: 31px;
+}
+.footer-component {
+  background-color: #fff;
+  height: 38px;
+  margin-top: 425px;
+}
+.footer-header {
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  vertical-align: middle;
+  color: #1a1a1a;
+  padding-top: 10px;
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 1157px) {
+  .dashboard-bg-image {
+    width: 1605px;
+  }
+}

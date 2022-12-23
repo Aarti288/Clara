@@ -1,0 +1,29 @@
+.page-heading {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #1a1a1a;
+}
+.page-action {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #4211cf;
+  cursor: pointer;
+}
+.action-component {
+  margin-top: 70px;
+  margin-bottom: 44px;
+}
+.side-label {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+}
